@@ -4,76 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newspaper</title>
+    <link rel="stylesheet" href="./newspaper.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-   <header>
-        <aside> <!--for corporate address, website and social media details on the top right-->
-            <p>Hindustantimes.com</p>
-            <p>
-               <img scr=""/><span><a href="" target="_blank" title="twitter">@httimes</a></span>
-               <img scr=""/><span><a href="" target="_blank" title="facebook">@hindustan times</a></span>
-            </p>
-        </aside>
-        <aside> <!--for City and the date on the top left-->
-            <p>NEW DELHI METRO</p>
-            <p>Monday, August 17, 2023</p>
-        </aside>
+   <header class="header">
+        <div class="headertop">
+            <aside id="lefttop"> <!--for corporate address, website and social media details on the top right-->
+                <p>Hindustantimes.com</p>
+                <p>
+                   <img scr=""/><span><a href="" target="_blank" title="twitter">@httimes</a></span>
+                   <img scr=""/><span><a href="" target="_blank" title="facebook">@hindustan times</a></span>
+                </p>
+            </aside>
+            <aside id="righttop"> <!--for City and the date on the top left-->
+                <p>NEW DELHI METRO</p>
+                <p>Monday, August 17, 2023</p>
+            </aside>
+        </div>
         <hr/>
-        <img src="">
-       <h1>The Hindustan Times</h1>
-       <p><span>FIRST VOICE.</span><span>LAST WORD</span></p>
+        <div class="headertitle"></div>
+                   <img src="../assets/images/Hindustan_Times_logo.svg.png" width="80%" height="" id="Hindustan_Times_logo">
+                   <p id="logocaption"><span>FIRST VOICE.</span><span style="color: red;">LAST WORD</span></p>
+        </div>
     </header>
     <hr/>
-    <main>
-        <section>
-            <section>
+    <main class="mainbody">
+        <section class="section1">
+            <section class="section1a" style=width:33.33%>
                 <h2>India first to hit 80k cases in a single day</h2>
-                    <section>
-                       <h3></h3>
-                       <article></article>
-                    </section>
-                    <section>
-                       <h3></h3>
-                       <article></article>
-                    </section>
+                    <div class="section1ab">
+                        <section class="section1aba" width="50%">
+                           <h4>2,104 fresh corona virus infection reported in Delhi </h4>
+                           <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas exercitationem, molestias similique laboriosam facere perferendis quas ducimus debitis facilis autem esse totam quasi recusandae cupiditate? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia doloribus quas provident non nulla ipsam voluptatem iusto libero incidunt ea.</article>
+                        </section>
+                        <section class="section1abb" width="50%">
+                           <h4>WITH TESTING LIKELY TO BE SCALED UP</h4>
+                           <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora ipsam repudiandae iure. Asperiores corporis autem animi quidem cupiditate illo id consectetur rerum! Neque, maxime magnam?</article>
+                        </section>
+                    </div>
             </section>    
-            <section>
+            <section class="section1b" style=width:66.66%>
                 <h2>Vaccine Diplomacy in India's outreach plan</h2>
-                    <section>
-                            <h3></h3>
-                            <article></article>
-                    </section>
-                    <section>
-                        <section>
-                            <h3></h3>
-                            <p></p>
-                            <img src="" alt=""/>
+                    <div class="section1bb">
+                        <section class="sesection1bba" style="width: 25%;">
+                                <h3>Government readies five models</h3>
+                                <article><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, rerum. Debitis iste officia minus magni repellendus soluta est tenetur voluptatum quos corporis quaerat inventore, consequatur odio, unde sunt, deserunt reiciendis quibusdam veniam qui ad sit delectus! Minima commodi eos sunt nemo rerum, quos possimus dolorem magni illo repudiandae! Harum, quasi.</p></article>
                         </section>
-                        <section>
-                            <h3></h3>
-                            <article></article>
+                        <section class="section1bbb" style="width: 75%;">
+                            <section class="section1bbba" style="width: 66.66%;">
+                                <h3>Diplomatic immunity</h3>
+                                <p></p>
+                                <img src="../assets/images/hdp harold.jpg" alt="" width="100%"/>
+                            </section>
+                            <section class="section1bbbb" style="width: 33.33%;">
+                                <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque porro est dolores voluptatibus sint quaerat. Quia iste culpa beatae! Nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati inventore maxime dolor dicta iusto laboriosam velit itaque exercitationem aliquid debitis ipsam illum blanditiis voluptates eveniet modi et, placeat saepe ullam impedit dolore cumque similique! Dolorum veniam possimus, inventore cum voluptas placeat sunt blanditiis quibusdam adipisci minus nulla in. Distinctio, earum.</article>
+                            </section>
                         </section>
-                    </section>
+                    </div>
             </section>
         </section>
-        <section>
-            <section>
-                <img/>
+        <section class="section2">
+            <section class="section2a">
+                <img src="../assets/images/Cheetah.jpg" width="100%"/>
             </section>
-            <section>
+            <section class="section2b">
                 <h2>Won't borrow to meet GST deficit, some states say</h2>
-                    <section>
-                       <article>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci dolorem dolores sapiente deleniti sint optio, ratione ut perferendis voluptatem!</p>
+                    <section class="section2bb">
+                       <article class="section2bba">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci dolorem dolores sapiente deleniti sint optio, ratione ut perferendis voluptatem!
                        </article>
-                    </section>
-                    <section>
-                        <article>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsa! Officiis alias praesentium quae quis blanditiis? Saepe illum ratione ea!</p>
+                        <article class="section2bbb">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsa! Officiis alias praesentium quae quis blanditiis? Saepe illum ratione ea!
                         </article>
                     </section>
             </section>

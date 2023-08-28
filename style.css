@@ -40,16 +40,15 @@ li
 	cursor: pointer;}
 footer
 {
-	display: table;
+	display:flex;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;}
+	justify-content: center;}
 .footerscm
 {
 	text-align: center;
 	display: flex;
     flex-direction: row;
-    width: 400px;}
+}
 .ghlink, .lilink 
 {
     margin: 20px;}
