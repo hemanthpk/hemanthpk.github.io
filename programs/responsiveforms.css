@@ -22,7 +22,7 @@ body
     margin: auto;
     background-color: rgb(0,0,0,0.2);
     display: flex;}
-div.container> *
+div.container *
 {
     padding: 1rem;
 }
@@ -35,6 +35,10 @@ form
     background-color: white;
     display: flex;
     flex-flow: column nowrap;}
+form :hover, form :focus
+{
+    transform: scale(1.1);
+}
 .buttons
 {
     display: flex;
